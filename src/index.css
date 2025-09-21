@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 @import "tailwindcss";
+
+body{
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@theme {
+  --color-company-blue: #0034DC;
+  --color-company-red: #FE6370;
+}
