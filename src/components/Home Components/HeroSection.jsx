@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="bg-[url(./assets/panel.jpg)] pt-[7rem] bg-cover bg-center bg-no-repeat h-screen relative">
       <div className="absolute top-0 h-full w-full bg-black/50" />
       <div className="absolute lg:p-0 text-slate-100 inset-0 flex flex-col justify-center lg:items-center backdrop-blur-[2px] my-auto">
-        <h2 className="md:text-[5.5rem] text-[2.2rem] text-center md:leading-tight text-slate-100 md:mt-20 mt-10 font-extrabold">
+        <h2 className="md:text-[5.5rem] text-[2.2rem] text-center md:leading-tight text-slate-100 md:mt-20 mt-5 font-extrabold">
           Powering Tomorrow, Today!
         </h2>
         <h5 className="lg:text-2xl text-lg text-center italic mt-4">
