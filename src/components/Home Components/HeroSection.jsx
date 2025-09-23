@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[url(./assets/panel.jpg)] pt-[7rem] bg-cover bg-center bg-no-repeat h-screen relative">
-      <div className="absolute top-0 h-full w-full bg-black/50" />
+    <div className="bg-[url(./assets/projects/3.jpg)] pt-[7rem] bg-cover bg-center bg-no-repeat h-[90vh] relative">
+      <div className="absolute top-0 h-full w-full bg-black/70" />
       <div className="absolute lg:p-0 text-slate-100 inset-0 flex flex-col justify-center lg:items-center backdrop-blur-[2px] my-auto">
         <h2 className="md:text-[5.5rem] text-[2.2rem] text-center md:leading-tight text-slate-100 md:mt-20 mt-5 font-extrabold">
           Powering Tomorrow, Today!
