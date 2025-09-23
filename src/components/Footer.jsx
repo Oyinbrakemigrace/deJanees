@@ -11,12 +11,15 @@ import navItems from "../constants/navItems";
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-company-blue text-slate-100 px-5 py-10 grid md:grid-cols-3 grid-cols-1 lg:gap-0 gap-10 lg:place-items-center">
+      <div className="bg-company-blue text-slate-100 lg:px-10 px-5 py-10 grid md:grid-cols-3 grid-cols-1 lg:gap-0 gap-10 lg:place-items-center">
         <div className="space-y-2">
           <Link to="/">
             <img src={logo} alt="white-logo" className="w-[10rem]" />
           </Link>
-          <p className="text-lg italic">Clean, reliable, and sustainable energy solutions for homes and businesses.</p>
+          <p className="text-lg italic">
+            Clean, reliable, and sustainable energy solutions for homes and
+            businesses.
+          </p>
           <div className="lg:flex hidden space-x-5 items-center text-3xl mt-16">
             <FaFacebook />
             <FaXTwitter />
@@ -27,13 +30,11 @@ const Footer = () => {
         <div>
           <h5 className="text-3xl">Get to know us</h5>
           <div className="flex flex-col gap-4 mt-5 text-lg underline">
-            {
-              navItems.map((item, index) => (
-                <NavLink to={item.href} key={index}>
-                  <p>{item.label}</p>
-                </NavLink>
-              ))
-            }
+            {navItems.map((item, index) => (
+              <NavLink to={item.href} key={index}>
+                <p>{item.label}</p>
+              </NavLink>
+            ))}
           </div>
         </div>
         <div>
@@ -41,13 +42,19 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-lg mt-5">
             <HiOutlineMail />
             <p className="flex flex-col">
-              <a href="mailto:dejaneesconceptslimited@gmail.com" className="underline">
-              dejaneesconceptslimited@gmail.com
-            </a>
-            
-            <a href="mailto:projects@dejaneesconcepts.com.ng" className="underline">
-              projects@dejaneesconcepts.com.ng
-            </a>
+              <a
+                href="mailto:dejaneesconceptslimited@gmail.com"
+                className="underline"
+              >
+                dejaneesconceptslimited@gmail.com
+              </a>
+
+              <a
+                href="mailto:projects@dejaneesconcepts.com.ng"
+                className="underline"
+              >
+                projects@dejaneesconcepts.com.ng
+              </a>
             </p>
           </div>
           <p className="flex items-center space-x-2 text-lg mt-5">
