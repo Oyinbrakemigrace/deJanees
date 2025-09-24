@@ -16,7 +16,7 @@ const MainLayout = () => {
       <header>
         <Navbar/>
       </header>
-      <section className=' min-h-screen'>
+      <section className='min-h-screen'>
         <Outlet />
       </section>
       
