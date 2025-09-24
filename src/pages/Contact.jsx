@@ -3,7 +3,7 @@ import Heading from "../components/Heading";
 
 const Contact = () => {
   return (
-    <div className="bg-slate-200">
+    <div className="bg-slate-200 min-h-screen">
       <section className=" px-6 lg:px-16 pt-32">
         <Heading text="Contact Us" />
         <p className=" md:text-xl text-lg text-zinc-900">
