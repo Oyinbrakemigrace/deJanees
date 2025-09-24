@@ -17,10 +17,10 @@ const HeroSection = () => {
         <div className="mt-20 space-x-4 flex justify-center text-xl">
           <button>
             <Link
-              to="/our-projects"
+              to="/our-services"
               className="bg-transparent border-2 md:text-2xl text-sm border-company-blue hover:bg-company-blue/50 rounded-md lg:px-10 lg:py-4 px-5 py-3"
             >
-              Explore Projects
+              Explore Services
             </Link>
           </button>
           <Button href={"/contact-us"} btnText="Contact Us" />
