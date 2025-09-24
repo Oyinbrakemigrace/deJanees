@@ -14,21 +14,21 @@ const CoreServices = () => {
       title: "Rural Electrification",
       description:
         "Hybrid systems and mini-grids delivering 24/7 power to underserved communities.",
-      icon: <FaGlobeAfrica />,
+      icon: "🌍"
     },
     {
       id: 2,
       title: "Industrial Generators",
       description:
         "Backup and hybrid generator systems for continuous operations.",
-      icon: <IoMdBatteryFull />,
+      icon: "🔋"
     },
     {
       id: 3,
       title: "Telecoms Powering",
       description:
         "Turnkey energy solutions for telecom sites, integrating renewables.",
-      icon: <GiNetworkBars />,
+      icon: "📶",
     },
   ];
 
